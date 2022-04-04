@@ -27,7 +27,7 @@ https://www.geeksforgeeks.org/python-playing-audio-file-in-pygame/
 https://www.raspberrypi.com/products/sense-hat/
 
 ## Software
-De software is een txt-file. Om het te laten werken in Python3 moet 'txt' varvangen worden door 'py'
-Zij in bijlagen
+Zie in bijlagen.
 
 ### Eigen scripts en programma's
+Zie in bijlagen.
