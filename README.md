@@ -27,7 +27,12 @@ https://www.geeksforgeeks.org/python-playing-audio-file-in-pygame/
 https://www.raspberrypi.com/products/sense-hat/
 
 ## Software
-Zie in bijlagen.
+De symbolen van Stop, Play, Pauze, Volume + en - worden op het led-scherm getoond.
+De naam van de song komt pas op de display na het drukken van de pauzeknop.
+Om te voorkomen dat een liedje 2x voorkomt bij shuffleplay maken we een kopie van de liedjesnamen naar een afzonderlijke lijst.
+Telekens een liedje start wordt deze gewist uit de lijst. Dit herhaalt zich tot de lijst leeg is. 
+De software werkt behoorlijk. Enkel bij op het einde van de lijst wordt het programma plots afgebroken.
+Autostart bij power-up.
 
 ### Eigen scripts en programma's
 Zie in bijlagen.
