@@ -21,8 +21,13 @@ https://www.pygame.org/docs/ref/mixer.html
 Op deze site gebruiken we de mixer van Pygame om de MP3 files af te spelen.
 https://stackoverflow.com/questions/7746263/how-can-i-play-an-mp3-with-pygame
 Met deze pagine was een snelle start mogelijk om het project aan te vatten
+https://www.geeksforgeeks.org/python-playing-audio-file-in-pygame/
 
 ## Hardware
+https://www.raspberrypi.com/products/sense-hat/
 
 ## Software
+De software is een txt-file. Om het te laten werken in Python3 moet 'txt' varvangen worden door 'py'
+Zij in bijlagen
+
 ### Eigen scripts en programma's
