@@ -38,9 +38,9 @@ Autostart bij power-up: dit wordt verkregen door de volgende handelingen te doen
 2. Plaats daarin het python programma 'start.py'
 3. sudo nano /etc/xdg/autostart/start.desktop
 4. Plaats de volgende regels in: 
- - regel1:  [Desktop Entry] 
- - regel2: name=autostart  
- - regel3: Exec= /usr/bin/python /home/pi/autostart/tart.py 
+ - [Desktop Entry] 
+ - name=autostart  
+ - Exec= /usr/bin/python /home/pi/autostart/tart.py 
 6. Deze file opslaan
 
 De uitgang is 3.5mm connector
