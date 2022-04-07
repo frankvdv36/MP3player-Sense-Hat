@@ -32,6 +32,7 @@ De naam van de song komt pas op de display na het drukken van de pauzeknop.
 Om te voorkomen dat een liedje 2x voorkomt bij shuffleplay maken we een kopie van de liedjesnamen naar een afzonderlijke lijst.
 Telekens een liedje start wordt deze gewist uit de lijst. Dit herhaalt zich tot de lijst leeg is. 
 De software werkt behoorlijk. Enkel bij op het einde van de lijst wordt het programma plots afgebroken.
+
 Autostart bij power-up: dit wordt verkregen door de volgende handelingen te doen. Zie ook in bijlage 'autostart'
 1. Maak een map aan 'autostart' onder /home.pi/
 2. Plaats daarin het python programma 'start.py'
