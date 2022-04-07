@@ -1,0 +1,43 @@
+Om een Python programma automatich te laten starten, gebruik naam: start.py 
+Info link: 
+https://www.makeuseof.com/how-to-run-a-raspberry-pi-program-script-at-startup/ 
+
+
+1. Methode: 'autostart'
+
+Maak in '/home/pi/autostart' aan en zet daarin het juiste programma. 
+Naam: 'start.py' indien het gaat over een python programma
+
+sudo nano /etc/xdg/autostart/start.desktop
+
+==================================================
+[Desktop Entry]
+Name= autostart		# naam is niet noodzakelijk.
+Exec= /usr/bin/python /home/pi/autostart/start.py
+=================================================
+
+
+2. Methode 'rc.local'		
+
+(sudo) nano /etc.rc.local	# 'sudo' zou niet nodig zijn.
+
+plak voor 'exit '
+===================================================
+sudo python /home/pi/autostart/start.py
+===================================================
+
+In de map 'autostart' moet de juiste naam 'start.py' geplaatst worden.
+Is deze er niet dan gebeurt er niets tijdens opstarten.
+
+'rc.local' kan problemen geven bij sommige python programmas.
+Het programma wordt vroeger in de opstart aangezet dan bij 'autostart'.
+
+
+
+3. Screenblanking 
+
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart # schakel screensaver uit
+
+@xset s noblank
+@xset s off # screensaver Off
+@xset -dpms # Display Power Management Signaling
