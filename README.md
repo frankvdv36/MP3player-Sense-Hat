@@ -34,11 +34,14 @@ Telekens een liedje start wordt deze gewist uit de lijst. Dit herhaalt zich tot 
 De software werkt behoorlijk. Enkel bij op het einde van de lijst wordt het programma plots afgebroken.
 
 Autostart bij power-up: dit wordt verkregen door de volgende handelingen te doen. Zie ook in bijlage 'autostart'
-1. Maak een map aan 'autostart' onder /home.pi/
+1. Maak een map aan 'autostart' onder /home/pi/
 2. Plaats daarin het python programma 'start.py'
 3. sudo nano /etc/xdg/autostart/start.desktop
-4. Plaats de volgende regels in: regel1:  [Desktop Entry] regel2: name=autostart  regel3: Exec= /usr/bin/python /home/pi/autostart/tart.py 
-5. Deze file opslaan
+4. Plaats de volgende regels in: 
+ - regel1:  [Desktop Entry] 
+ - regel2: name=autostart  
+ - regel3: Exec= /usr/bin/python /home/pi/autostart/tart.py 
+6. Deze file opslaan
 
 De uitgang is 3.5mm connector
 ### Eigen scripts en programma's
