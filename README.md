@@ -6,11 +6,11 @@ Mogelijkheden:
 Een reeks MP3-files in shuffle-play afspelen zodat iedere track maar 1xafgespeeld wordt.
 De mogelijkheden zijn: Play Pauze Stop Volume+ en Volume-  
 Joystick:
-UP: Volume+ 
-DOWN: Volmue-
-RIGHT: Play
-LEFT: Stop
-Push: Pause of Resume (verder spelen)
+- UP: Volume+ 
+- DOWN: Volmue-
+- RIGHT: Play
+- LEFT: Stop
+- Push: Pause of Resume (verder spelen)
 
 ## Bronnen
 https://github.com/astro-pi/python-sense-hat/blob/master/examples/pygame_joystick.py
