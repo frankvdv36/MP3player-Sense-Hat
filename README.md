@@ -40,7 +40,7 @@ Autostart bij power-up: dit wordt verkregen door de volgende handelingen te doen
 4. Plaats de volgende regels in: 
  - [Desktop Entry] 
  - name=autostart  
- - Exec= /usr/bin/python /home/pi/autostart/tart.py 
+ - Exec= /usr/bin/python /home/pi/autostart/start.py 
 6. Deze file opslaan
 
 De uitgang is 3.5mm connector
